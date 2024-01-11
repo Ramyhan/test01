@@ -1,2 +1,1 @@
-hello
-나다 등장
+hello 등장
