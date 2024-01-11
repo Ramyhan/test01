@@ -1,4 +1,4 @@
-package com.kh.test;
+package com.kh.test.controller;
 
 import java.text.DateFormat;
 import java.util.Date;
