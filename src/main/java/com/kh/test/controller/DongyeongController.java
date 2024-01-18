@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 @Controller
 public class DongyeongController {
 	
-	@PostMapping("/test")
+	@PostMapping("/dongyeong")
 	public void dongy(String kim) {
 		
 	}
