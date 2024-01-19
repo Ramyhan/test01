@@ -8,22 +8,22 @@
 	<title>div 태그</title>
 	
   <!-- 메인 틀 -->	
-  <link href="resources/my.css" rel="stylesheet" type="text/css" />
+  <link href="resources/css/dongwi/my.css" rel="stylesheet" type="text/css" />
   
   
   <!-- 상단바 bootstrap core css -->
-  <link rel="stylesheet" type="text/css" href="/resources/bootstrap.css" />
+  <link rel="stylesheet" type="text/css" href="/resources/css/dongwi/bootstrap.css" />
   <!--owl slider stylesheet -->
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
   <!-- nice select  -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/css/nice-select.min.css" integrity="sha512-CruCP+TD3yXzlvvijET8wV5WxxEh5H8P4cmz0RFbKK6FlZ2sYl3AEsKlLPHbniXKSrDdFewhbmBK5skbdsASbQ==" crossorigin="anonymous" />
   <!-- font awesome style -->
-  <link href="/resources/font-awesome.min.css" rel="stylesheet" />
+  <link href="/resources/css/dongwi/font-awesome.min.css" rel="stylesheet" />
 
   <!-- Custom styles for this template -->
-  <link href="/resources/style.css" rel="stylesheet" />
+  <link href="/resources/css/dongwi/style.css" rel="stylesheet" />
   <!-- responsive style -->
-  <link href="/resources/responsive.css" rel="stylesheet" />
+  <link href="/resources/css/dongwi/responsive.css" rel="stylesheet" />
   <!-- 글리피콘 -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 </head>
@@ -38,12 +38,12 @@
 		<header class="header_section">
       <div class="container">
         <nav class="navbar navbar-expand-lg custom_nav-container " style="
-   			 width: 2000px;
-  			 right: 500px;">
+   			 width: 1500px;
+  			 right: 250px;">
           <a class="navbar-brand" href="#">
-            <span>
-             임시
-            </span>
+          <span>
+            임시
+          </span>
           </a>
 
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -52,17 +52,23 @@
 
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav  mx-auto ">
-              <li class="nav-item active">
-                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+              <li class="nav-item"> <!-- active -->
+                <a class="nav-link" href="index.html">노트북 <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="menu.html">Menu</a>
+                <a class="nav-link" href="menu.html">모니터</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="about.html">About</a>
+                <a class="nav-link" href="about.html">태블릿</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="book.html">Book Table</a>
+                <a class="nav-link" href="book.html">음향기기</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="book.html">주변기기</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="book.html">고객센터</a>
               </li>
             </ul>
             <div class="user_option">
@@ -87,7 +93,7 @@
 		<!-- //상단바 -->
 		
 		<!-- 메인 -->
-		<div id="main" style="color:white; text-align:center;">메인</div>
+	<div id="main" style="color:white; text-align:center;">메인
 
 	</div>
 	<!-- //메인 -->
