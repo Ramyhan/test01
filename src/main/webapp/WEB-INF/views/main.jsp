@@ -37,9 +37,7 @@
 		<div id="top">
 		<header class="header_section">
       <div class="container">
-        <nav class="navbar navbar-expand-lg custom_nav-container " style="
-   			 width: 1500px;
-  			 right: 250px;">
+        <nav class="navbar navbar-expand-lg custom_nav-container " style="">
           <a class="navbar-brand" href="#">
           <span>
             임시
