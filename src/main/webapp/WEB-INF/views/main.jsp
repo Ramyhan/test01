@@ -8,7 +8,7 @@
 	<title>div 태그</title>
 	
   <!-- 메인 틀 -->	
-  <link href="resources/css/my.css" rel="stylesheet" type="text/css" />
+  <link href="resources/css/dongwi/my.css" rel="stylesheet" type="text/css" />
   
   
   <!-- 상단바 bootstrap core css -->
@@ -41,7 +41,9 @@
    			 width: 1500px;
   			 right: 250px;">
           <a class="navbar-brand" href="#">
+          <span>
             임시
+          </span>
           </a>
 
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -50,17 +52,23 @@
 
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav  mx-auto ">
-              <li class="nav-item active">
-                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+              <li class="nav-item"> <!-- active -->
+                <a class="nav-link" href="index.html">노트북 <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="menu.html">Menu</a>
+                <a class="nav-link" href="menu.html">모니터</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="about.html">About</a>
+                <a class="nav-link" href="about.html">태블릿</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="book.html">Book Table</a>
+                <a class="nav-link" href="book.html">음향기기</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="book.html">주변기기</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="book.html">고객센터</a>
               </li>
             </ul>
             <div class="user_option">
