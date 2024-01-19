@@ -37,7 +37,10 @@
 		<div id="top">
 		<header class="header_section">
       <div class="container">
-        <nav class="navbar navbar-expand-lg custom_nav-container " style="">
+        <nav class="navbar navbar-expand-lg custom_nav-container " style="
+    right: 50px;
+    width: 1250px;
+">
           <a class="navbar-brand" href="#">
           <span>
             임시
@@ -69,7 +72,9 @@
                 <a class="nav-link" href="book.html">고객센터</a>
               </li>
             </ul>
-            <div class="user_option">
+            <div class="user_option" style="
+            margin-left: 100px;
+				">
               <a href="" class="user_link">
                 <i class="fa fa-user" aria-hidden="true"></i>
               </a>
