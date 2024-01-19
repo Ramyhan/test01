@@ -27,3 +27,12 @@ body {
     width: 100%;
     position: relative;
 }
+#card {
+	height: 250px;
+	width: 200px;
+	position: relative;
+}
+.section {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}

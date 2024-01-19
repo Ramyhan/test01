@@ -95,9 +95,32 @@
 		</div>
 		<!-- //상단바 -->
 		
-		<!-- 메인 -->
-	<div id="main" style="color:white; text-align:center;">메인
-
+	<!-- 메인 -->
+	<div id="main" style="color: white; text-align: center;">
+		<div class="section">
+			<div class="container">
+			<div class="row">
+			
+				<!-- 카드 -->
+				<div id="card">
+					<div class="container-fluid">
+						<div class="row">
+							<div class="col-md-12">
+								<div class="card">
+									<h5 class="card-header">Card title</h5>
+									<div class="card-body">
+										<p class="card-text">Card content</p>
+									</div>
+									<div class="card-footer">Card footer</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- 카드 -->
+			</div>
+			</div>
+		</div>
 	</div>
 	<!-- //메인 -->
 
