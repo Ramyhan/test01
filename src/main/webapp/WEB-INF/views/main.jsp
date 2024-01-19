@@ -8,22 +8,24 @@
 	<title>div 태그</title>
 	
   <!-- 메인 틀 -->	
-  <link href="resources/css/my.css" rel="stylesheet" type="text/css" />
+  <link href="resources/my.css" rel="stylesheet" type="text/css" />
   
   
   <!-- 상단바 bootstrap core css -->
-  <link rel="stylesheet" type="text/css" href="/resources/feane/css/bootstrap.css" />
+  <link rel="stylesheet" type="text/css" href="/resources/bootstrap.css" />
   <!--owl slider stylesheet -->
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
   <!-- nice select  -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/css/nice-select.min.css" integrity="sha512-CruCP+TD3yXzlvvijET8wV5WxxEh5H8P4cmz0RFbKK6FlZ2sYl3AEsKlLPHbniXKSrDdFewhbmBK5skbdsASbQ==" crossorigin="anonymous" />
   <!-- font awesome style -->
-  <link href="/resources/feane/css/font-awesome.min.css" rel="stylesheet" />
+  <link href="/resources/font-awesome.min.css" rel="stylesheet" />
 
   <!-- Custom styles for this template -->
-  <link href="/resources/feane/css/style.css" rel="stylesheet" />
+  <link href="/resources/style.css" rel="stylesheet" />
   <!-- responsive style -->
-  <link href="/resources/feane/css/responsive.css" rel="stylesheet" />
+  <link href="/resources/responsive.css" rel="stylesheet" />
+  <!-- 글리피콘 -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 </head>
 
 
