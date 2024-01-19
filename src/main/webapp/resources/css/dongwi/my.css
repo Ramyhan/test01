@@ -17,6 +17,7 @@ body {
 #top {
     background-color: #202020;
     height: 100px;
+    width: 100%;
     position: relative;
 }
 #main {

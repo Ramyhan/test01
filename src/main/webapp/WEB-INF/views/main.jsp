@@ -8,7 +8,7 @@
 	<title>div 태그</title>
 	
   <!-- 메인 틀 -->	
-  <link href="resources/css/dongwi/my.css" rel="stylesheet" type="text/css" />
+  <link href="/resources/css/dongwi/my.css" rel="stylesheet" type="text/css" />
   
   
   <!-- 상단바 bootstrap core css -->
@@ -37,9 +37,7 @@
 		<div id="top">
 		<header class="header_section">
       <div class="container">
-        <nav class="navbar navbar-expand-lg custom_nav-container " style="
-   			 width: 1500px;
-  			 right: 250px;">
+        <nav class="navbar navbar-expand-lg custom_nav-container " style="">
           <a class="navbar-brand" href="#">
           <span>
             임시
