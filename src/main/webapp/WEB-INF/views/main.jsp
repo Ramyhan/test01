@@ -41,7 +41,7 @@
     right: 50px;
     width: 1250px;
 ">
-          <a class="navbar-brand" href="#">
+          <a class="navbar-brand" href="/main">
           <span>
             임시
           </span>
@@ -54,22 +54,22 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav  mx-auto ">
               <li class="nav-item"> <!-- active -->
-                <a class="nav-link" href="index.html">노트북 <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="#">노트북 <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="menu.html">모니터</a>
+                <a class="nav-link" href="#">모니터</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="about.html">태블릿</a>
+                <a class="nav-link" href="#">태블릿</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="book.html">음향기기</a>
+                <a class="nav-link" href="#">음향기기</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="book.html">주변기기</a>
+                <a class="nav-link" href="#">주변기기</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="book.html">고객센터</a>
+                <a class="nav-link" href="#">고객센터</a>
               </li>
             </ul>
             <div class="user_option" style="
