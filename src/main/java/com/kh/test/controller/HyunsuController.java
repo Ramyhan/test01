@@ -7,10 +7,9 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 public class HyunsuController {
 	
-	@GetMapping("/hyunsu")
-	@ResponseBody
-	public String hyunsu() {
-		return "hyunsu";
+	@GetMapping("/product")
+	public void hyunsu() {
+		
 	}
 
 }
