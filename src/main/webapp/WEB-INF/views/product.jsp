@@ -6,16 +6,16 @@
 <meta charset="UTF-8">
 <title>제품화면</title>
 <style>
-	.main {
-		width : 100%;
-		margin : 10px auto;
-		position : relative;
-	}
+/* 	.main { */
+/* 		width : 100%; */
+ /* 		margin : 10px auto; */ 
+/* 		position : relative; */
+/* 	} */
 	
-	.main img {
-		width : 100%;
-		vertival-align : middle;
-	}
+/* 	.main img { */
+/* 		width : 100%; */
+/* 		vertival-align : middle; */
+/* 	} */
 	
 	#divProd {
 		transition: all 0.2s linear;
