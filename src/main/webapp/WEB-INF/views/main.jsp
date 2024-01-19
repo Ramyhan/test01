@@ -6,7 +6,11 @@
 
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<title>div 태그</title>
-	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
   <!-- 메인 틀 -->	
   <link href="/resources/css/dongwi/my.css" rel="stylesheet" type="text/css" />
   
@@ -94,30 +98,64 @@
 		</div>
 		</div>
 		<!-- //상단바 -->
+		<div id="temp" class="container-fluid">
 		
+		</div>
 	<!-- 메인 -->
-	<div id="main" style="color: white; text-align: center;">
+	<div id="main" style="text-align: center;">
+<!-- 	<div class="section"> -->
+<!-- 	<div class="container"> -->
+<div class="container-fluid">
+	<div class="row">
+<!-- 		<div class="col-md-12"> -->
+			<div class="carousel slide" id="carousel-611398">
+				<ol class="carousel-indicators">
+					<li data-slide-to="0" data-target="#carousel-611398" class="active">
+					</li>
+					<li data-slide-to="1" data-target="#carousel-611398">
+					</li>
+					<li data-slide-to="2" data-target="#carousel-611398">
+					</li>
+				</ol>
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<img class="d-block w-100" alt="Carousel Bootstrap First" src="/resources/images/main_img.png" />
+						<div class="carousel-caption">
+						</div>
+					</div>
+					<div class="carousel-item">
+						<img class="d-block w-100" alt="Carousel Bootstrap Second" src="/resources/images/main_img2.png" />
+						<div class="carousel-caption">
+						</div>
+					</div>
+					<div class="carousel-item">
+						<img class="d-block w-100" alt="Carousel Bootstrap Third" src="/resources/images/main_img.png" />
+						<div class="carousel-caption">
+						</div>
+					</div>
+				</div> <a class="carousel-control-prev" href="#carousel-611398" data-slide="prev"><span class="carousel-control-prev-icon"></span> 
+				<span class="sr-only">Previous</span></a> <a class="carousel-control-next" href="#carousel-611398" data-slide="next"><span class="carousel-control-next-icon"></span> <span class="sr-only">Next</span></a>
+			</div>
+<!-- 		</div> -->
+	</div>
+</div>
+<!-- 	</div> -->
+<!-- 	</div> -->
+	
 		<div class="section">
 			<div class="container">
 			<div class="row">
 			
 				<!-- 카드 -->
-				<div id="card">
-					<div class="container-fluid">
-						<div class="row">
-							<div class="col-md-12">
-								<div class="card">
-									<h5 class="card-header">Card title</h5>
-									<div class="card-body">
-										<p class="card-text">Card content</p>
-									</div>
-									<div class="card-footer">Card footer</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!-- 카드 -->
+			  <div class="card bg-dark" style="width:250px">
+			  <img class="card-img-top" src="/resources/images/dongwiNote.jpg" alt="Card image">
+			  <div class="card-body">
+			    <h4 class="card-title">갤럭시북3 프로</h4>
+			    <p class="card-text"></p>
+			    <a href="#" class="btn btn-danger">구매</a>
+			  </div>
+			</div>
+				<!-- //카드 -->
 			</div>
 			</div>
 		</div>
