@@ -38,15 +38,15 @@
    	 color: white;              	
 	   background-color: #2d2d2d; 
 	   float: left;               
- 	   line-height: 30px;         
+ 	   line-height: 500px;          
 	   vertical-align: middle;    
-	   text-align: center;        
+	   text-align: center;
 	}
 	#topMenu .menuLink {                              
             text-decoration:none;         
             color: white;                           
             display: block;                         
-            width: 150px;                           
+          width: 150px;                            
             font-size: 12px;                        
             font-weight: bold;                         
             font-family: "Trebuchet MS", Dotum, Arial; 
@@ -86,7 +86,7 @@
   </div>
 </div>
 <hr style="border: solid;" >
-	<nav id="topMenu" class="container">
+	<nav id="topMenu">
          <ul>
                <li><a class="menuLink" href="#">About us</a></li>
                <li><a class="menuLink" href="#">Ministries</a></li>
