@@ -12,18 +12,18 @@
   
   
   <!-- 상단바 bootstrap core css -->
-  <link rel="stylesheet" type="text/css" href="/resources/css/bootstrap.css" />
+  <link rel="stylesheet" type="text/css" href="/resources/css/dongwi/bootstrap.css" />
   <!--owl slider stylesheet -->
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
   <!-- nice select  -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/css/nice-select.min.css" integrity="sha512-CruCP+TD3yXzlvvijET8wV5WxxEh5H8P4cmz0RFbKK6FlZ2sYl3AEsKlLPHbniXKSrDdFewhbmBK5skbdsASbQ==" crossorigin="anonymous" />
   <!-- font awesome style -->
-  <link href="/resources/css/font-awesome.min.css" rel="stylesheet" />
+  <link href="/resources/css/dongwi/font-awesome.min.css" rel="stylesheet" />
 
   <!-- Custom styles for this template -->
-  <link href="/resources/css/style.css" rel="stylesheet" />
+  <link href="/resources/css/dongwi/style.css" rel="stylesheet" />
   <!-- responsive style -->
-  <link href="/resources/css/responsive.css" rel="stylesheet" />
+  <link href="/resources/css/dongwi/responsive.css" rel="stylesheet" />
   <!-- 글리피콘 -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 </head>
