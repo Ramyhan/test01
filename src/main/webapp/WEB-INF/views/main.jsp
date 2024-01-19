@@ -8,7 +8,7 @@
 	<title>div 태그</title>
 	
   <!-- 메인 틀 -->	
-  <link href="resources/css/dongwi/my.css" rel="stylesheet" type="text/css" />
+  <link href="/resources/css/dongwi/my.css" rel="stylesheet" type="text/css" />
   
   
   <!-- 상단바 bootstrap core css -->
