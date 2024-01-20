@@ -44,20 +44,20 @@ body {
 }
 
 .card{
-  overflow: hidden;
-   object-fit:cover;     
+  overflow: hidden; 
+   object-fit:cover;
   transform:scale(1.0);        
   transition: 0.2s ease-in-out;
     
 }
 
-/* .card img{ */
-/*   object-fit:cover;      */
-/*   transform:scale(1.0);         */
-/*   transition: 0.2s ease-in-out; */
-/* } */
+ .card img{ 
+   object-fit:cover;      
+   transform:scale(1.0);         
+   transition: 0.2s ease-in-out; 
+ } 
 
-.card:hover{ 
-  transform: translateY(20px);
-  cursor: pointer;
-}
+ .card:hover{  
+   transform: translateY(20px); 
+   cursor: pointer; 
+ } 
