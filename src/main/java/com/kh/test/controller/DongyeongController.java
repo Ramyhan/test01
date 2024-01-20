@@ -7,7 +7,11 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class DongyeongController {
 	
 	@GetMapping("/FAQ")
-	public void dongy() {
+	public void FAQ() {
+		
+	}
+	@GetMapping("/notice")
+	public void notice() {
 		
 	}
 }

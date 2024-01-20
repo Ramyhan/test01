@@ -15,7 +15,7 @@
   <link href="/resources/css/dongwi/my.css" rel="stylesheet" type="text/css" />
   
   
-  <!-- 상단바 bootstrap core css -->
+<!--   상단바 bootstrap core css -->
   <link rel="stylesheet" type="text/css" href="/resources/css/dongwi/bootstrap.css" />
   <!--owl slider stylesheet -->
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
