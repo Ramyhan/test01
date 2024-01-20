@@ -3,13 +3,14 @@
 @charset "utf-8";
 /* CSS Document */
  
+/*  #222831 */
 body {
     margin: 0px; 
     font-size: 18px;
     color: #FFFFFF;
 }
 #temp{
-	background-color: #393E46; 
+	background-color: #222831; 
 	border-top: solid 1px #FFD369;
 	height: 50px;
 }
@@ -20,13 +21,13 @@ body {
     background-color: #FFFFFF;
 }
 #top {
-    background-color: #222831;
+    background-color: #010101;
     height: 100px;
     width: 100%;
     position: relative;
 }
 #main {
-    background-color: #000000;
+    background-color: #010101;
     float: left;
     height: 100%;
     width: 100%;

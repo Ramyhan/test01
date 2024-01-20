@@ -6,17 +6,16 @@
 
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<title>div 태그</title>
+	<!-- 부트스트랩 -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
   <!-- 메인 틀 -->	
   <link href="/resources/css/dongwi/my.css" rel="stylesheet" type="text/css" />
   
   
-  <!-- 상단바 bootstrap core css -->
-  <link rel="stylesheet" type="text/css" href="/resources/css/dongwi/bootstrap.css" />
   <!--owl slider stylesheet -->
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
   <!-- nice select  -->
@@ -147,7 +146,7 @@
 			<div class="row">
 			
 				<!-- 카드 -->
-			  <div class="card bg-dark" style="width:250px">
+			  <div class="card bg-dark" style="width:250px" style="border:">
 			  <img class="card-img-top" src="/resources/images/dongwiNote.jpg" alt="Card image">
 			  <div class="card-body">
 			    <h4 class="card-title">갤럭시북3 프로</h4>
@@ -162,6 +161,8 @@
 	</div>
 	<!-- //메인 -->
 
+<!-- 하단 -->
+<
 </body>
 
 </html>
