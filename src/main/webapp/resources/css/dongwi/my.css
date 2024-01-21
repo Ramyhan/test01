@@ -9,11 +9,13 @@ body {
     font-size: 18px;
     color: #FFFFFF;
 }
-#temp{
+/* 공지 */
+#notice{
 	background-color: #222831; 
 	border-top: solid 1px #FFD369;
 	height: 50px;
 }
+/* 상단바 */
 #box {
     position: relative;
     height: auto;
@@ -26,6 +28,9 @@ body {
     width: 100%;
     position: relative;
 }
+/* /상단바 */
+
+/* 메인 */
 #main {
     background-color: #010101;
     float: left;
@@ -33,9 +38,11 @@ body {
     width: 100%;
     position: relative;
 }
+
+/* 카드 */
 #card {
-	height: 250px;
-	width: 200px;
+	height: 300px;
+	width: 300px;
 	position: relative;
 	
 }
@@ -44,29 +51,45 @@ body {
   padding-bottom: 30px;
 }
 
-.div-card{
-	width: 250px;
-}
 .card{
   overflow: hidden; 
    object-fit:cover;
   transform:scale(1.0);        
   transition: 0.2s ease-in-out;
-  margin-left: 25px;
-  margin-right: 25px;
   border: solid 2px #202020;
-  width: 250px;
-    
+  width: 300px;
+  height: 500px;
+  margin-right: 10px; 
+	
 }
  .card-img-top{ 
    object-fit:cover;      
    transform:scale(1.0);         
    transition: 0.2s ease-in-out; 
-   height: 235px;
+   width: 280px;
+   height: 280px;
  } 
  .card-body{ 
    border-top: solid 2px #202020;
+   color: white;
+   background-color: #202020;
+   
  } 
+ .card-body > p{ 
+   color: #c0c0c0;
+   font-size: 15px;
+   
+ } 
+ .card-icon {
+ 	position: absolute;
+ 	top: 460px;
+ 	left: 190px;
+ 	
+ }
+ .card-price{
+ 	position: absolute;
+ 	top: 460px;
+ }
 
 .card:hover{  
    transform: translateY(20px); 
@@ -101,9 +124,15 @@ body {
                linear 0s   /* 처음부터 끝까지 일정 속도로 진행 */
                infinite alternate; /* 무한 반복 */
  }
-@keyframes motion {
+@keyframes2 motion2 {
 	0% {margin-top: 0px;} /* 처음 위치 */
 	100% {margin-top: 7px;} /* 마지막 위치 */
   }
- 
- 
+
+footer{
+	background-color: #202020;
+ }
+.footer-container{
+	display: flex;
+	color: white;
+}

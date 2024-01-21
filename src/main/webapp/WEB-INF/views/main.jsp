@@ -78,9 +78,17 @@
             <div class="user_option" style="
             margin-left: 100px;
 				">
-              <a href="" class="user_link">
-                <i class="fa fa-user" aria-hidden="true"></i>
+				<div class="dropdown ">
+              <a href="" class="user_link dropdown topbar-dropdown" data-toggle="dropdown">
+                <i class="fa fa-user" aria-hidden="true">
+                </i>
               </a>
+               <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+				<a class="dropdown-item disabled" href="#">Action</a> 
+				<a class="dropdown-item" href="#">Another action</a> 
+				<a class="dropdown-item" href="#">Something else here</a>
+				</div>
+				</div>
               <form class="form-inline">
                 <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit">
                   <i class="fa fa-search" aria-hidden="true"></i>
@@ -96,10 +104,16 @@
     </header>
 		</div>
 		</div>
+		
+		
 		<!-- //상단바 -->
-		<div id="temp" class="container-fluid" style="text-align: center; color:white;">
-		 공지
+		
+		<!-- 공지 -->
+		<div id="notice" class="container-fluid" style="text-align: center; color:white; padding-top: 9px;">
+		 <p>공지</p>
 		</div>
+		<!-- //공지 -->
+		
 	<!-- 메인 -->
 	<div id="main" style="text-align: center;">
 <!-- 	<div class="section"> -->
@@ -123,12 +137,12 @@
 						</div>
 					</div>
 					<div class="carousel-item">
-						<img class="d-block w-100" alt="Carousel Bootstrap Second" src="/resources/images/main_img2.png" />
+						<img class="d-block w-100" alt="Carousel Bootstrap Second" src="/resources/images/main2_img.png" />
 						<div class="carousel-caption">
 						</div>
 					</div>
 					<div class="carousel-item">
-						<img class="d-block w-100" alt="Carousel Bootstrap Third" src="/resources/images/main_img.png" />
+						<img class="d-block w-100" alt="Carousel Bootstrap Third" src="/resources/images/main3_img.png" />
 						<div class="carousel-caption">
 						</div>
 					</div>
@@ -145,43 +159,95 @@
 			<div class="container card-container">
 			
 				<!-- 카드1 -->
-			  <div class="card bg-dark div-card">
-			  <img class="card-img-top" src="/resources/images/dongwiNote.jpg" alt="Card image">
+			  <div class="card bg-dark">
+			  <img class="card-img-top" src="/resources/images/notebook.jpg" alt="Card image">
 			  <div class="card-body">
-			    <h4 class="card-title">갤럭시북3 프로</h4>
-			    <p class="card-text"></p>
+			    <h4 class="card-title">갤럭시북3 프로 GalaxyBook pro</h4>
+			    <p class="card-text">
+			    16인치16인치16인치16인치16인치</p>
+			    <div>
+			    <p class="card-price">
+			     	1,300,000원
+			    </p>
+			    </div>
+			    <div class="row card-icon">
+			    <div class="col-md-6">
 			    <i class="fa fa-heart"></i>
+			    </div>
+			    <div class="col-md-6">
 			    <i class="fa fa-shopping-cart"></i>
+			    </div>
+			    </div>
 			  </div>
 			</div>
 				<!-- //카드 -->
-				<!-- 카드2 -->
-			  <div class="card bg-dark div-card">
+				<!-- 카드1 -->
+			  <div class="card bg-dark">
 			  <img class="card-img-top" src="/resources/images/tablet.png" alt="Card image">
 			  <div class="card-body">
-			    <h4 class="card-title">태블릿</h4>
-			    <p class="card-text"></p>
+			    <h4 class="card-title">아이패드 프로3 5세대</h4>
+			    <p class="card-text">
+			    디스플레이 · 32.8cm(대각선) 미니 LED 백라이트 · 2732 x 2048 픽셀</p>
+			    <div>
+			    <p class="card-price">
+			     	1,480,000원
+			    </p>
+			    </div>
+			    <div class="row card-icon">
+			    <div class="col-md-6">
+			    <i class="fa fa-heart"></i>
+			    </div>
+			    <div class="col-md-6">
 			    <i class="fa fa-shopping-cart"></i>
+			    </div>
+			    </div>
 			  </div>
 			</div>
 				<!-- //카드 -->
-				<!-- 카드3 -->
-			  <div class="card bg-dark div-card">
+				<!-- 카드1 -->
+			  <div class="card bg-dark">
 			  <img class="card-img-top" src="/resources/images/headset.jpg" alt="Card image">
 			  <div class="card-body">
-			    <h4 class="card-title">헤드셋</h4>
-			    <p class="card-text"></p>
-			    <a href="#" class="btn btn-danger">구매</a>
+			    <h4 class="card-title">젠하이저 HD660S</h4>
+			    <p class="card-text">
+			     오픈형 헤드폰 3.5mm / 150Ω / 104dB / 10Hz~41KHz</p>
+			    <div>
+			    <p class="card-price">
+			     	599,000원
+			    </p>
+			    </div>
+			    <div class="row card-icon">
+			    <div class="col-md-6">
+			    <i class="fa fa-heart"></i>
+			    </div>
+			    <div class="col-md-6">
+			    <i class="fa fa-shopping-cart"></i>
+			    </div>
+			    </div>
 			  </div>
 			</div>
 				<!-- //카드 -->
-				<!-- 카드4 -->
-			  <div class="card bg-dark div-card">
+				<!-- 카드1 -->
+			  <div class="card bg-dark">
 			  <img class="card-img-top" src="/resources/images/monitor.jpg" alt="Card image">
 			  <div class="card-body">
-			    <h4 class="card-title">모니터</h4>
-			    <p class="card-text"></p>
-			    <a href="#" class="btn btn-danger">구매</a>
+			    <h4 class="card-title">델 에일리언웨어 AW2721D</h4>
+			    <p class="card-text">
+			    68.47cm(27인치) / 와이드(16:9) / IPS / 평면 / 광시야각 / 2560 x 1440(QHD) 
+			    </p>
+			    <div>
+			    <p class="card-price">
+			     	1,300,000원
+			    </p>
+			    </div>
+			    <div class="row card-icon">
+			    <div class="col-md-6">
+			    <i class="fa fa-heart"></i>
+			    </div>
+			    <div class="col-md-6">
+			    <i class="fa fa-shopping-cart"></i>
+			    </div>
+			    </div>
 			  </div>
 			</div>
 				<!-- //카드 -->
@@ -191,6 +257,14 @@
 	<!-- //메인 -->
 
 <!-- 하단 -->
+<footer>
+	<div class="container footer-container">
+		<div class="row">
+		asdasdsdasdasdsddsaddsadsad
+		</div>
+	</div>
+</footer>
+<!-- /하단 -->
 
 </body>
 
