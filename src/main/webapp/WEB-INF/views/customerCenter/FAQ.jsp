@@ -1,6 +1,11 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <%@ include file="/WEB-INF/views/include/customerCenterTop.jsp"%>
+<style>
+ body{
+ 	background-color: gray;
+ }
+</style>
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-md-12">
@@ -18,7 +23,7 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td>카테고리</td>
+										<td>번호</td>
 										<td>제목</td>
 										<td style="text-align: right;">01/04/2012</td>
 									</tr>
