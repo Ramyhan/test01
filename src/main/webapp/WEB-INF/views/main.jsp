@@ -97,8 +97,8 @@
 		</div>
 		</div>
 		<!-- //상단바 -->
-		<div id="temp" class="container-fluid">
-		
+		<div id="temp" class="container-fluid" style="text-align: center; color:white;">
+		 공지
 		</div>
 	<!-- 메인 -->
 	<div id="main" style="text-align: center;">
@@ -142,27 +142,56 @@
 <!-- 	</div> -->
 	
 		<div class="section">
-			<div class="container">
-			<div class="row">
+			<div class="container card-container">
 			
-				<!-- 카드 -->
-			  <div class="card bg-dark" style="width:250px" style="border:">
+				<!-- 카드1 -->
+			  <div class="card bg-dark div-card">
 			  <img class="card-img-top" src="/resources/images/dongwiNote.jpg" alt="Card image">
 			  <div class="card-body">
 			    <h4 class="card-title">갤럭시북3 프로</h4>
+			    <p class="card-text"></p>
+			    <i class="fa fa-heart"></i>
+			    <i class="fa fa-shopping-cart"></i>
+			  </div>
+			</div>
+				<!-- //카드 -->
+				<!-- 카드2 -->
+			  <div class="card bg-dark div-card">
+			  <img class="card-img-top" src="/resources/images/tablet.png" alt="Card image">
+			  <div class="card-body">
+			    <h4 class="card-title">태블릿</h4>
+			    <p class="card-text"></p>
+			    <i class="fa fa-shopping-cart"></i>
+			  </div>
+			</div>
+				<!-- //카드 -->
+				<!-- 카드3 -->
+			  <div class="card bg-dark div-card">
+			  <img class="card-img-top" src="/resources/images/headset.jpg" alt="Card image">
+			  <div class="card-body">
+			    <h4 class="card-title">헤드셋</h4>
+			    <p class="card-text"></p>
+			    <a href="#" class="btn btn-danger">구매</a>
+			  </div>
+			</div>
+				<!-- //카드 -->
+				<!-- 카드4 -->
+			  <div class="card bg-dark div-card">
+			  <img class="card-img-top" src="/resources/images/monitor.jpg" alt="Card image">
+			  <div class="card-body">
+			    <h4 class="card-title">모니터</h4>
 			    <p class="card-text"></p>
 			    <a href="#" class="btn btn-danger">구매</a>
 			  </div>
 			</div>
 				<!-- //카드 -->
 			</div>
-			</div>
 		</div>
 	</div>
 	<!-- //메인 -->
 
 <!-- 하단 -->
-<
+
 </body>
 
 </html>

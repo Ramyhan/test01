@@ -37,27 +37,73 @@ body {
 	height: 250px;
 	width: 200px;
 	position: relative;
+	
 }
 .section {
   padding-top: 50px;
   padding-bottom: 30px;
 }
 
+.div-card{
+	width: 250px;
+}
 .card{
   overflow: hidden; 
    object-fit:cover;
   transform:scale(1.0);        
   transition: 0.2s ease-in-out;
+  margin-left: 25px;
+  margin-right: 25px;
+  border: solid 2px #202020;
+  width: 250px;
     
 }
-
- .card img{ 
+ .card-img-top{ 
    object-fit:cover;      
    transform:scale(1.0);         
    transition: 0.2s ease-in-out; 
+   height: 235px;
+ } 
+ .card-body{ 
+   border-top: solid 2px #202020;
  } 
 
- .card:hover{  
+.card:hover{  
    transform: translateY(20px); 
    cursor: pointer; 
  } 
+ 
+.card-container{
+ 	display: flex;
+ }
+
+.fa-shopping-cart{
+	color: white;
+}
+
+.fa-shopping-cart:hover{
+   animation: motion 0.3s /* 속도 */
+               linear 0s   /* 처음부터 끝까지 일정 속도로 진행 */
+               infinite alternate; /* 무한 반복 */
+ }
+@keyframes motion {
+	0% {margin-top: 0px;} /* 처음 위치 */
+	100% {margin-top: 7px;} /* 마지막 위치 */
+  }
+  
+  
+.fa-heart{
+	color: white;
+}
+
+.fa-heart:hover{
+   animation: motion 0.3s /* 속도 */
+               linear 0s   /* 처음부터 끝까지 일정 속도로 진행 */
+               infinite alternate; /* 무한 반복 */
+ }
+@keyframes motion {
+	0% {margin-top: 0px;} /* 처음 위치 */
+	100% {margin-top: 7px;} /* 마지막 위치 */
+  }
+ 
+ 
