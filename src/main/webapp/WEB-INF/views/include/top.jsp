@@ -11,8 +11,13 @@
   <link href="/resources/css/dongwi/my.css" rel="stylesheet" type="text/css" />
   
   
-  <!-- 상단바 bootstrap core css -->
-  <link rel="stylesheet" type="text/css" href="/resources/css/dongwi/bootstrap.css" />
+  <!-- 상단바 bootstrap -->
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+	<!--   <link rel="stylesheet" type="text/css" href="/resources/css/dongwi/bootstrap.css" /> -->
   <!--owl slider stylesheet -->
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
   <!-- nice select  -->
