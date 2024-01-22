@@ -3,7 +3,7 @@
 <%@include file="/WEB-INF/views/include/customerCenterTop.jsp"%>
 <style>
 	body{
-		background-color: gray;
+		background-color: white;
 	}
 	.notice{
 		text-decoration : none;

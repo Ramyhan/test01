@@ -3,7 +3,6 @@
 <%@ include file="/WEB-INF/views/include/customerCenterTop.jsp" %>
 <style>
 body{
-	background-color: gray;
 }
 .inquiry-table{
 	display: table;
@@ -31,7 +30,7 @@ body{
 .inquiry-btn{
 	border-radius: 15px; 
 	color : white;
- 	border-color: gray; 
+/*  	border-color: gray;  */
  	background-color: #03c75a; 
 	width: 195px;
 	padding: 14px 0;
@@ -49,6 +48,18 @@ body{
 					<label>아이디</label>
 					<em style="padding-right: 85px; color: green;">(선택)</em>
 					<div>아이디명</div>
+				</div>
+				<div class="inquiry-div-sub d-flex">
+					<label>카테고리</label>
+					<em style="padding-right: 73px; color: green;">(필수)</em>
+					<select>
+						<option>반품/환불</option>
+						<option>노트북</option>
+						<option>모니터</option>
+						<option>태블릿</option>
+						<option>음향기기</option>
+						<option>주변기기</option>
+					</select>
 				</div>
 				<div class="inquiry-div-sub d-flex">
 					<label>이메일</label>

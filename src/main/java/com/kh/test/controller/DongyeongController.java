@@ -20,4 +20,8 @@ public class DongyeongController {
 	public void inquiry() {
 		
 	}
+	@GetMapping("/question")
+	public void question() {
+		
+	}
 }

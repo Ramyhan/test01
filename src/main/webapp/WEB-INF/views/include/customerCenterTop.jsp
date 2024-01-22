@@ -5,11 +5,6 @@
 <head>
 <meta charset="UTF-8">
 <title></title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
   <!-- search bar -->
   <link rel="stylesheet" href="/resources/css/dongyeong/search.css"/>
 <style>
@@ -76,13 +71,6 @@
      position: absolute;
      object-fit: cover;
     }
-    .faq-card{
-    	display: block;
-    }
-    .card-link{
-    	display: flex;
-    	justify-content: space-between;
-    }
 </style>
 </head>
 <body>
@@ -110,12 +98,11 @@
 	<!-- 카테고리 -->
 	<div>
 		<nav id="topMenu" class="container">
-	         <ul>
+	         <ul class="d-flex justify-content-center" style="padding-top: 16px;">
 	               <li><a class="menuLink" href="/customerCenter/FAQ">고객센터 홈</a></li>
 	               <li><a class="menuLink" href="/customerCenter/notice">공지사항</a></li>
 	               <li><a class="menuLink" href="/customerCenter/inquiry">1:1문의</a></li>
-	               <li><a class="menuLink" href="#">자주 묻는 질문</a></li>
-	               <li><a class="menuLink" href="#">반품/환불</a></li>
+	               <li><a class="menuLink" href="/customerCenter/question">자주 묻는 질문</a></li>
 	         </ul>
 	    </nav>
 	</div>
