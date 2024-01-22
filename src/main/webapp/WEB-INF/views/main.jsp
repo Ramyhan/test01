@@ -6,17 +6,16 @@
 
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<title>div 태그</title>
+	<!-- 부트스트랩 -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
   <!-- 메인 틀 -->	
   <link href="/resources/css/dongwi/my.css" rel="stylesheet" type="text/css" />
   
   
-  <!-- 상단바 bootstrap core css -->
-  <link rel="stylesheet" type="text/css" href="/resources/css/dongwi/bootstrap.css" />
   <!--owl slider stylesheet -->
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
   <!-- nice select  -->
@@ -79,9 +78,17 @@
             <div class="user_option" style="
             margin-left: 100px;
 				">
-              <a href="" class="user_link">
-                <i class="fa fa-user" aria-hidden="true"></i>
+				<div class="dropdown ">
+              <a href="" class="user_link dropdown topbar-dropdown" data-toggle="dropdown">
+                <i class="fa fa-user" aria-hidden="true">
+                </i>
               </a>
+               <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+				<a class="dropdown-item disabled" href="#">Action</a> 
+				<a class="dropdown-item" href="#">Another action</a> 
+				<a class="dropdown-item" href="#">Something else here</a>
+				</div>
+				</div>
               <form class="form-inline">
                 <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit">
                   <i class="fa fa-search" aria-hidden="true"></i>
@@ -97,10 +104,16 @@
     </header>
 		</div>
 		</div>
-		<!-- //상단바 -->
-		<div id="temp" class="container-fluid">
 		
+		
+		<!-- //상단바 -->
+		
+		<!-- 공지 -->
+		<div id="notice" class="container-fluid" style="text-align: center; color:white; padding-top: 9px;">
+		 <p>공지</p>
 		</div>
+		<!-- //공지 -->
+		
 	<!-- 메인 -->
 	<div id="main" style="text-align: center;">
 <!-- 	<div class="section"> -->
@@ -124,12 +137,12 @@
 						</div>
 					</div>
 					<div class="carousel-item">
-						<img class="d-block w-100" alt="Carousel Bootstrap Second" src="/resources/images/main_img2.png" />
+						<img class="d-block w-100" alt="Carousel Bootstrap Second" src="/resources/images/main2_img.png" />
 						<div class="carousel-caption">
 						</div>
 					</div>
 					<div class="carousel-item">
-						<img class="d-block w-100" alt="Carousel Bootstrap Third" src="/resources/images/main_img.png" />
+						<img class="d-block w-100" alt="Carousel Bootstrap Third" src="/resources/images/main3_img.png" />
 						<div class="carousel-caption">
 						</div>
 					</div>
@@ -143,24 +156,115 @@
 <!-- 	</div> -->
 	
 		<div class="section">
-			<div class="container">
-			<div class="row">
+			<div class="container card-container">
 			
-				<!-- 카드 -->
-			  <div class="card bg-dark" style="width:250px">
-			  <img class="card-img-top" src="/resources/images/dongwiNote.jpg" alt="Card image">
+				<!-- 카드1 -->
+			  <div class="card bg-dark">
+			  <img class="card-img-top" src="/resources/images/notebook.jpg" alt="Card image">
 			  <div class="card-body">
-			    <h4 class="card-title">갤럭시북3 프로</h4>
-			    <p class="card-text"></p>
-			    <a href="#" class="btn btn-danger">구매</a>
+			    <h4 class="card-title">갤럭시북3 프로 GalaxyBook pro</h4>
+			    <p class="card-text">
+			    16인치16인치16인치16인치16인치</p>
+			    <div>
+			    <p class="card-price">
+			     	1,300,000원
+			    </p>
+			    </div>
+			    <div class="row card-icon">
+			    <div class="col-md-6">
+			    <i class="fa fa-heart"></i>
+			    </div>
+			    <div class="col-md-6">
+			    <i class="fa fa-shopping-cart"></i>
+			    </div>
+			    </div>
+			  </div>
+			</div>
+				<!-- //카드 -->
+				<!-- 카드1 -->
+			  <div class="card bg-dark">
+			  <img class="card-img-top" src="/resources/images/tablet.png" alt="Card image">
+			  <div class="card-body">
+			    <h4 class="card-title">아이패드 프로3 5세대</h4>
+			    <p class="card-text">
+			    디스플레이 · 32.8cm(대각선) 미니 LED 백라이트 · 2732 x 2048 픽셀</p>
+			    <div>
+			    <p class="card-price">
+			     	1,480,000원
+			    </p>
+			    </div>
+			    <div class="row card-icon">
+			    <div class="col-md-6">
+			    <i class="fa fa-heart"></i>
+			    </div>
+			    <div class="col-md-6">
+			    <i class="fa fa-shopping-cart"></i>
+			    </div>
+			    </div>
+			  </div>
+			</div>
+				<!-- //카드 -->
+				<!-- 카드1 -->
+			  <div class="card bg-dark">
+			  <img class="card-img-top" src="/resources/images/headset.jpg" alt="Card image">
+			  <div class="card-body">
+			    <h4 class="card-title">젠하이저 HD660S</h4>
+			    <p class="card-text">
+			     오픈형 헤드폰 3.5mm / 150Ω / 104dB / 10Hz~41KHz</p>
+			    <div>
+			    <p class="card-price">
+			     	599,000원
+			    </p>
+			    </div>
+			    <div class="row card-icon">
+			    <div class="col-md-6">
+			    <i class="fa fa-heart"></i>
+			    </div>
+			    <div class="col-md-6">
+			    <i class="fa fa-shopping-cart"></i>
+			    </div>
+			    </div>
+			  </div>
+			</div>
+				<!-- //카드 -->
+				<!-- 카드1 -->
+			  <div class="card bg-dark">
+			  <img class="card-img-top" src="/resources/images/monitor.jpg" alt="Card image">
+			  <div class="card-body">
+			    <h4 class="card-title">델 에일리언웨어 AW2721D</h4>
+			    <p class="card-text">
+			    68.47cm(27인치) / 와이드(16:9) / IPS / 평면 / 광시야각 / 2560 x 1440(QHD) 
+			    </p>
+			    <div>
+			    <p class="card-price">
+			     	1,300,000원
+			    </p>
+			    </div>
+			    <div class="row card-icon">
+			    <div class="col-md-6">
+			    <i class="fa fa-heart"></i>
+			    </div>
+			    <div class="col-md-6">
+			    <i class="fa fa-shopping-cart"></i>
+			    </div>
+			    </div>
 			  </div>
 			</div>
 				<!-- //카드 -->
 			</div>
-			</div>
 		</div>
 	</div>
 	<!-- //메인 -->
+
+<!-- 하단 -->
+<footer>
+	<div class="container footer-container">
+		<div class="row">
+		asdasdsdasdasdsddsaddsadsad
+		</div>
+	</div>
+</footer>
+<!-- /하단 -->
 
 </body>
 
