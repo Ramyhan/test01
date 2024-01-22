@@ -175,14 +175,24 @@
 						<div class="col-md-4">
 							<div class="container">
 								<div class="card" id="divProd">
-									<div class="card-body">Basic card</div>
+									<img alt="상품 사진" src="/resources/images/nu_test.png" style="padding: 10px; border-radius:30px;"/>
+									<span class="prdName">갤럭시북2 프로<br></span>
+									<span class="prdInfo">
+										NT950XED-K71A<br>
+										12세대i7 15인치 윈도우11
+									</span>
 								</div>
 							</div>
 						</div>
 						<div class="col-md-4">
 							<div class="container">
 								<div class="card" id="divProd">
-									<div class="card-body">Basic card</div>
+									<img alt="상품 사진" src="/resources/images/nu_test.png" style="padding: 10px; border-radius:30px;"/>
+									<span class="prdName">갤럭시북2 프로<br></span>
+									<span class="prdInfo">
+										NT950XED-K71A<br>
+										12세대i7 15인치 윈도우11
+									</span>
 								</div>
 							</div>
 						</div>
