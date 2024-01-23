@@ -152,7 +152,7 @@ i{
 					</div>
 				</div>
 			</div>
-		</div>/WEB-INF/views/include/bottom.jsp
+		</div>
 		<!-- //질문카드 -->
 		<div class="col-md-2">
 		

@@ -38,6 +38,7 @@ body{
 .clearfix a{
 	color: black;
 }
+
 .link_title{
 	font-family:fantasy;
 	font-weight: 800;
@@ -49,9 +50,13 @@ body{
 	border-radius: 16px;
 	border:0px;
 	background-color: white;
+	width: 100%;
+	height: 100%;
 }
 .card-body{
 	border-bottom: 2px solid;
+	background-color: white;
+	color: gray;
 }
 .clearfix li a{
 	background-color: white;
@@ -59,6 +64,12 @@ body{
 .card-header:first-child{
 	background-color: white;
     border-radius: 0;
+}
+.card-header:first-child a{
+	color: black;
+}
+.card-header:first-child a:hover{
+	color:#FFD369;
 }
 
 </style>
