@@ -84,5 +84,4 @@
 		</div>
 	</div>
 </div>
-</body>
-</html>
+<%@ include file="/WEB-INF/views/include/bottom.jsp"%>
