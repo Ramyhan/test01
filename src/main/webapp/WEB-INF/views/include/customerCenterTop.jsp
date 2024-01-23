@@ -87,11 +87,10 @@
 				style="text-align: center; padding-top: 50px; padding-bottom: 50px;">지원에
 				오신걸 환영합니다</div>
 			<p
-				style="text-align: center; padding-bottom: 50px; font-size: 25px; opacity: 0.6; color: gray;">저희가
-				도와드리겠습니다</p>
+				style="text-align: center; padding-bottom: 50px; font-size: 25px; opacity: 0.6; color: gray;">서브 제목</p>
 			<!-- 검색창 -->
 			<div class="col wrap">
-				<div class="search col">
+				<div class="search col" style="padding-left: 47px;">
 					<input type="text" class="searchTerm col"
 						placeholder="궁금한 점을 적어주세요">
 					<button type="submit" class="searchButton" id="searchButton">

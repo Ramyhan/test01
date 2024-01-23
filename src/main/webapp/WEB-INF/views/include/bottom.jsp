@@ -1,7 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!-- 하단 -->
-<footer>
+<footer style="margin-top: 100px;">
 	<div class="container footer-container">
 			<div class="row">
 				<div class="footer-top">

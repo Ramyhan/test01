@@ -24,4 +24,8 @@ public class DongyeongController {
 	public void question() {
 		
 	}
+	@GetMapping("/login")
+	public void login() {
+		
+	}
 }

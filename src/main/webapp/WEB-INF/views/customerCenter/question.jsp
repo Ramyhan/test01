@@ -57,6 +57,7 @@ body{
 	border-bottom: 2px solid;
 	background-color: white;
 	color: gray;
+	border-top: 0px;
 }
 .clearfix li a{
 	background-color: white;
@@ -73,6 +74,11 @@ body{
 }
 
 </style>
+<script>
+$(function(){
+	
+})
+</script>
 <div class="question_tab_list" style="padding-top: 33px;">
 	<div class="d-flex justify-content-center">
 		<ul class="clearfix">
@@ -159,7 +165,9 @@ body{
 				<div id="card-203733">
 					<div class="card">
 						<div class="card-header">
-							 <a class="card-link collapsed" data-toggle="collapse" data-parent="#card-203733" href="#card-element-312844">Collapsible Group Item #1</a>
+							 <a class="card-link collapsed d-flex justify-content-between" data-toggle="collapse" data-parent="#card-203733" href="#card-element-312844">질문 1
+							 <i class="fa fa-angle-down"></i>
+							 </a>
 						</div>
 						<div id="card-element-312844" class="collapse">
 							<div class="card-body">
@@ -169,7 +177,9 @@ body{
 					</div>
 					<div class="card">
 						<div class="card-header">
-							 <a class="collapsed card-link" data-toggle="collapse" data-parent="#card-203733" href="#card-element-376540">Collapsible Group Item #2</a>
+							 <a class="collapsed card-link d-flex justify-content-between" data-toggle="collapse" data-parent="#card-203733" href="#card-element-376540">질문2
+							 <i class="fa fa-angle-down"></i>
+							 </a>
 						</div>
 						<div id="card-element-376540" class="collapse">
 							<div class="card-body">
